@@ -1,0 +1,108 @@
+Jumlah Atribut : 76 (Termasuk Kelas Target)
+
+Informasi Atribut
+      1 id: Nomor pasien
+      2 ccf: ID pasien
+      3 age: Umur dalam Tahun
+      4 sex: Jenis Kelamin (1 = Laki-Laki; 0 = Perempuan)
+      5 painloc: Lokasi sakit di dada (1 = substernal; 0 = lainnya)
+      6 painexer: (1 = sakit setelah peregangan; 0 = lainnya)
+      7 relrest: (1 = nyaman setelah istirahat; 0 = lainnya)
+      8 pncaden (jumlah 5, 6, dan 7)
+      9 cp: Jenis sakit dada
+        -- Value 1: typical angina
+        -- Value 2: atypical angina
+        -- Value 3: non-anginal pain
+        -- Value 4: asymptomatic
+     10 trestbps: tekanan darah saat istirahat (dalam mm Hg saat test di rumah-sakit)
+     11 htn
+     12 chol: serum cholestoral dalam mg/dl
+     13 smoke: perokok (1 = ya; 0 = tidak)
+     14 cigs (rokok per hari )
+     15 years (Lama menjadi perokok dalam satuan tahun)
+     16 fbs : (kadar gula puasa > 120 mg/dl)  (1 = ya; 0 = tidak)
+     17 dm  : riwayat diabetes (1 = ya; 0 = tidak)
+     18 famhist: riwaat keluara penyakit jantung koroner (1 = ya; 0 = tidak)
+     19 restecg: hasil electrocardiographic saat istirahat
+        -- Value 0: normal
+        -- Value 1: terdapat kelainan gelombang ST-T (inversi gelombang T dan/atau ST 
+                    meningkat atau menurun dengan kadar > 0.05 mV)
+        -- Value 2: menunjukkan kemungkinan atau kepastian hypertrophy ventricular kiri dengan uji Estes' criteria
+     20 ekgmo (hasil pembacaan ECG bulanan)
+     21 ekgday(hasil pembacaan ECG harian)
+     22 ekgyr (hasil pembacaan ECG tahunan)
+     23 dig (digitalis digunakan selama pengujian ECG: 1 = ya; 0 = tidak)
+     24 prop (Beta blocker digunakan selama pengujian ECG: 1 = ya; 0 = tidak)
+     25 nitr (nitrates digunakan selama pengujian ECG: 1 = ya; 0 = tidak)
+     26 pro (calcium channel blocker digunakan selama pengujian ECG: 1 = ya; 0 = tidak)
+     27 diuretic (diuretic digunakan selama pengujian ECG: 1 = ya; 0 = tidak)
+     28 proto: protokol latihan/pengujian
+          1 = Bruce     
+          2 = Kottus
+          3 = McHenry
+          4 = fast Balke
+          5 = Balke
+          6 = Noughton 
+          7 = bike 150 kpa min/min  (Not sure if "kpa min/min" is what was 
+              written!)
+          8 = bike 125 kpa min/min  
+          9 = bike 100 kpa min/min
+         10 = bike 75 kpa min/min
+         11 = bike 50 kpa min/min
+         12 = arm ergometer
+     29 thaldur: durasi latihan/pengujian dalam menit
+     30 thaltime: waktu saat pengukuran penurunan ST dicatat
+     31 met: mets terpenuhi
+     32 thalach: denyut jantung maksimal
+     33 thalrest: denyut jantung istirahat
+     34 tpeakbps: tekanan darah maksimal saat pengujian (bagian 1 dari 2)
+     35 tpeakbpd: tekanan darah maksimal saat pengujian (bagian 2 dari 2)
+     36 dummy
+     37 trestbpd: tekanan darah istirahat
+     38 exang: exercise induced angina (1 = ya; 0 = tidak)
+     39 xhypo: (1 = ya; 0 = tidak)
+     40 oldpeak = Depresi ST terjadi karenan pengujian dibanding saat istirahat
+     41 slope: kemiringan saat pengujian maksimal sesi ST
+        -- Value 1: Naik
+        -- Value 2: Datar
+        -- Value 3: Turun
+     42 rldv5: ketinggian saat istirahat
+     43 rldv5e: ketinggian saat pengujian
+     44 ca: jumlah major vessels (0-3) diwarnai oleh flourosopy
+     45 restckm: irrelevant
+     46 exerckm: irrelevant
+     47 restef: rest raidonuclid (sp?) ejection fraction
+     48 restwm: Kelainan gerakan rest wall (sp?)
+        0 = tidak ada
+        1 = Ringan atau Moderat
+        2 = Moderate atau Parah
+        3 = akinesis or dyskmem (sp?)
+     49 exeref: exercise radinalid (sp?) ejection fraction
+     50 exerwm: exercise wall (sp?) motion 
+     51 thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
+     52 thalsev: tidak digunakan
+     53 thalpul: tidak digunakan
+     54 earlobe: tidak digunakan
+     55 cmo: month of cardiac cath (sp?)
+     56 cday: day of cardiac cath (sp?)
+     57 cyr: year of cardiac cath (sp?)
+     58 lmt
+     59 ladprox
+     60 laddist
+     61 diag
+     62 cxmain
+     63 ramus
+     64 om1
+     65 om2
+     66 rcaprox
+     67 rcadist
+     68 lvx1: tidak digunakan
+     69 lvx2: tidak digunakan
+     70 lvx3: tidak digunakan
+     71 lvx4: tidak digunakan
+     72 lvf: tidak digunakan
+     73 cathef: tidak digunakan
+     74 junk: tidak digunakan
+     75 name: Nama pasien
+     76 num: Hasil diagnosis penyakit jantung (positive, negative)
+        
